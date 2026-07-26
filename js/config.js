@@ -1,6 +1,6 @@
 const siteConfig = {
     // The WhatsApp number (without '+' or spaces) for the wa.me link
-    whatsappNumber: "919567212916",
+    whatsappNumber: "447407649714",
     // Go to https://web3forms.com/ to get your free access key and paste it here
     web3formsAccessKey: "YOUR_WEB3FORMS_ACCESS_KEY_HERE",
     products: [
