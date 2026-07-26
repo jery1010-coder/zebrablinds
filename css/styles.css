@@ -426,13 +426,14 @@ body {
 
 .modal.show {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    padding: 1rem 0;
 }
 
 .modal-content {
     background-color: var(--surface-color);
-    margin: 2rem auto;
+    margin: auto;
     padding: 2.5rem;
     border: 1px solid var(--accent-color);
     border-radius: 12px;
@@ -555,14 +556,15 @@ input:focus, select:focus {
 
 .total-price {
     font-size: 1.8rem;
-    color: #d32f2f;
-    background-color: #ffebee;
-    padding: 10px 15px;
-    border-radius: 6px;
-    display: inline-block;
-    margin: 1rem 0;
-    font-weight: 800;
-    border: 1px solid #ffcdd2;
+    color: #ffffff;
+    background-color: #e74c3c;
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    margin: 1.5rem 0;
+    font-weight: 900;
+    box-shadow: 0 4px 15px rgba(231, 76, 60, 0.4);
 }
 
 .offer-note {
