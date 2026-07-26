@@ -379,6 +379,35 @@ body {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .modal-content {
+        padding: 1.5rem;
+        margin: 1rem;
+        width: calc(100% - 2rem);
+    }
+    
+    .modal-actions {
+        flex-direction: column;
+    }
+    
+    .offer-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    .offer-document {
+        padding: 1rem;
+    }
+    
+    .total-price {
+        font-size: 1.4rem;
+    }
 }
 
 /* Modal Styles */
